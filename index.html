@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <style>
+      h1 {
+        color: red;
+      }
+      h2 {
+        color: green;
+      }
+      .city__image{
+          width: 80%;  
+          margin: 0 auto;        
+      }
+      .city{
+          display: flex;
+          flex-direction: column;
+      }
+    </style>
+
+    <title>RSK_Example_1</title>
+  </head>
+  <body>
+    <div class="root">
+      <header class="header">
+        <h1 class="header__title">Пример для группы РСК-31</h1>
+      </header>
+      <section class="cities">
+        <div class="city">
+          <h2 class="city__title">Город Самара</h2>
+          <img
+            class="city__image"
+            src="/images/1280px-Samara_-_Port_(2008-07-13).jpg"
+            alt="Здесь будет фото города"
+          />
+          <button class="city__button">Показать информацию</button>
+          <p class="city__info city__info_visable">Что-то о городе</p>
+        </div>
+      </section>
+      <footer>
+        <p>Телефон для связи 68-78-05</p>
+      </footer>
+    </div>
+  </body>
+</html>
